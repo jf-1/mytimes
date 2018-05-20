@@ -1,10 +1,9 @@
-
-
 header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid black;
   }
@@ -12,37 +11,99 @@ header {
 .logo {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  flex-grow: 1;
-  padding-left: 30px;
-  padding-bottom: 30px;
+  padding-left: 20px;
   color: mediumaquamarine;
   border: 1px solid black;
+  width: 600px;
+}
+
+span.times {
+  clear: left;
+}
+
+.navigation {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
 }
 
 a {
   color: black;
-  padding: 20px 10px;
+  padding-right: 20px;
 }
-.span {
-  display: inline-block;
-  }
+
+div {
+  border: 1px solid black;
+}
 
 .main {
   display: flex;
 }
-.cats {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png)
+
+.column.large {
+  width: 630px;
+  display: inline-flex;;
+  flex-direction: column;
 }
 
 .mainstory {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+div.imagetext {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+  }
+
+}
+.column.medium {
+  width: 300px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 240px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.cats {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png)
+  display: flex;
 }
 
 .earth {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  display: flex;
 }
 
 .research {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  display: flex;
 }
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  border-right: 2px solid white;
+}
+
+footer span {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  }
+
+
+
+style
